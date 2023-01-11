@@ -20,7 +20,7 @@ body{
 .logo{
     margin-left: 10%;
     flex: 20%;
-    text-align: center;
+    text-align: left;
 }
 
 .logo h1{
@@ -73,12 +73,26 @@ body{
 .headline{
     flex: 40%;
     margin-left: 10%;
-    text-align: left;
 }
 
 .headline p{
     color: grey;
+    text-align: left;
+}
 
+.contact-btn{
+    display: inline-block;
+    color: white;
+    background: #ff2978;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.contact-btn:hover{
+    background: #180f4a;
 }
 
 .headline h2{
@@ -97,4 +111,37 @@ body{
 
 .img{
     max-width: 90%;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180f4a;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;   
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff2978;
 }
